@@ -1,15 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera página web</title>
 </head>
+
 <body>
     <header>
-        <p>Novedades de HTML5 y CSS3</p>
+        <div>
+            <h1>Novedades de HTML5 y CSS3</h1>
+        </div>
+
 
     </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">¿Qué es HTML5?</a></li>
+            <li><a href="#">¿Qué es CSS3?</a></li>
+            <li><a href="#">Otros</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h2>Novedades HTML5</h2>
+            <p>HTML5 incorpora un conjunto de nuevas etiquetas, las cuales tienen diversos usos:
+
+                Se simplifica la etiqueta !DOCTYPE la cual queda reducida a su mínima expresion:
+                <!DOCTYPE HTML>
+
+                La mayoría de las páginas que creamos tienen un formato muy similar: cabecera, navegador, cuerpo
+                principal, píe de página, secciones, etc. HTML5 ofrece diversas etiquetas para cada parte de la página,
+                de manera no tengamos que marcarlas mediante el atributo id.
+
+                Etiquetas específicas para la incorporación de elementos multimedia. Se usan las etiquetas audio y
+                video. y se reconoce como propia la etiqueta embed
+
+                Se eliminan las etiquetas de estilo, tales como font, dejando la definición del aspecto al lenguaje CSS.
+
+                Los formularios también tienen nuevos elementos, sobre todo los elementos "input" los cuales tienen
+                nuevos atributos e incorporan nuevos tipos.
+            </p>
+            <ul>
+                <li>Incorpora nuevas etiquetas de carácter semántico y que nos ayudan a definir la estructura.</li>
+                <li>Nuevos controles para formularios que antes sólo eran posibles con JavaScript o CSS.</li>
+                <li>Soporta audio y vídeo de forma nativa.</li>
+                <li>Ya no es necesario el uso de comillas dobles en los atributos, siendo posible algo como: "div
+                    id=contenedor>Esto es un div div.</li>
+                <li>No hay una sintaxis tan estricta y no es necesario cerrar las etiquetas vacías, por lo que "br"
+                    sería válido.</li>
+                <li>Etiqueta doctype simplificada.</li>
+                <li>Podemos dibujar con etiquetas como canvas.</li>
+                <li>Se han eliminado etiquetas y atributos no necesarios como los frames.</li>
+                <li>Ahora las etiquetas html, head y body no son obligatorias.</li>
+                <li>Las etiquetas de tablas thead, tbody y tfoot tampoco son obligatorias.</li>
+            </ul>
+
+            <img src="img/HTML.jpg" alt="">
+
+            <table border="1">
+                <caption>Nuevas aplicaciones</caption>
+                <thead>
+
+
+                    <tr>
+                        <th>APIs</th>
+                        <th>Dibujo</th>
+                        <th>Multimedia</th>
+                        <th> Base de datos local</th>
+                        <th> Editar campos editables</th>
+                        <th> Enlaces a otros tipos de archivos</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+
+                    <tr>
+                        <td>El nuevo HTML5 prevé incorporar varias APIs para hacer diferentes tareas. Algunos de ellos
+                            están
+                            muy avanzados y pueden usarse en prácticamente todos los navegadores; otros son sólo un
+                            proyecto
+                            y no se sabe si al final se incorporarán a HTML5.</td>
+                        <td>Una API llamada "canvas" controla, con ayuda de javascript, la creación de dibujos. Canvas
+                            no es
+                            sólo un espacio en la página para poder dibujar. Los dibujos pueden tener movimiento, pueden
+                            añadirse fotos y texto, podemos hacer gráficos y animaciones en 3D.</td>
+                        <td>El control de elementos de audio y de video se hace ahora desde el propio navegador, sin
+                            tener
+                            que usar pluggins externos.</td>
+                        <td>Permite crear bases de datos en el ordenador del usuario. Sin duda es una ventaja para poder
+                            trabajar sin conexión. Está ya disponible en las ultimas versiones de la mayoría de los
+                            navegadores.</td>
+                        <td>
+                            Poder cambiar el contenido de un elemento de texto simplemente reescribiendolo o editandolo.
+                        </td>
+                        <td>
+                            Permite por ejemplo abrir archivos de nuestro disco duro y trabajar con ellos mediante
+                            aplicaciones on line.
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <article>
+            <h2>Novedades CSS3</h2>
+            <p>CSS es un lenguaje (no un lenguaje de programación) utilizado para especificar el aspecto de una página
+                web para diferentes dispositivos. Esto entra en contraste con HTML que es un lenguaje que define la
+                estructura de un documento para su distribución por la web. El HTML le dice al navegador como se
+                estructura el documento mientras que el CSS le dice como debe renderizarlo.!</p>
+            <table border="1">
+                <caption>Aplicaciones</caption>
+              <thead>
+                  <tr>
+                      <th>Varias imagenes de fondo</th>
+                      <th>Esquinas redondas</th>
+                      <th>Bordes con imagenes</th>
+                      <th>Sombras</th>
+                      <th>Transparencia de color</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td>
+                        CSS3 permite poner varias imágenes de fondo en un mismo elemento, sin tener que recurrir al truco de crear varios elementos superpuestos con una imagen cada uno. También incorpora nuevas propiedades para el fondo de los elementos.
+                      </td>
+                      <td>
+                        CSS3 incorpora una nueva propiedad que permite redondear las esquinas de las áreas de la página.
+                      </td>
+                      <td>
+                        Otra característica de CSS3 es poder poner imágenes en los bordes de los elementos. Podemos poner una imagen simple o repetida que se distribuye alrededor del elemento, ocupando todo el borde.
+
+
+                      </td>
+                      <td>
+                        Podemos poner una o varias sombras en un elemento. Además también podemos poner sombra a los textos.
+                      </td>
+                      <td>
+                        Con CSS3 no sólo podemos poner elementos semitransparentes, sino que también podemos poner la transparencia en el color. Cada color y cada elemento puede adquirir un grado de transparencia que va desde el color sólido al transparente total.
+                      </td>
+                  </tr>
+              </tbody>
+            </table>
+
+        </article>
+    </section>
+    <aside>
+        <video src="videos/Vídeo corto #soplaunavela.mp4" poster="img/video.jpg" controls></video>
+        <video src="videos/Vídeo corto #soplaunavela.mp4" poster="img/video.jpg" controls></video>
+        <audio src="audio/y2mate.com - Qué es y para que se utiliza HTML 5.mp3" controls>
+
+        </audio>
+    </aside>
+    <footer>
+        <p>Sugerencias</p>
+        <form action="." oninput="range_control_value.value = range_control.valueAsNumber">
+            <p>
+                Nombre: <input type="text" name="name_control" autofocus required />
+                <br />
+
+                Correo Electrónico: <input type="email" name="email_control" required />
+                <br />
+                Importancia (min 0, max 10): <input type="range" name="range_control" min="0" max="10" value="0" />
+                <output for="range_control" name="range_control_value">0</output>
+                <br />
+                Sugerencia: <input type="text" name="name_control" autofocus required />
+                <br />
+                <input type="submit" value="Submit!" />
+            </p>
+        </form>
+    </footer>
 </body>
+
 </html>
