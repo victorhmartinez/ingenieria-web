@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,200&display=swap');
+
+header{
+    background-color: #242582 ;
+    color: white;
+}
+body{
+    background-color: rgb(212, 212, 212);
+    font-family:'Work Sans',sans-serif ;
+    line-height: 1.6em;
+    margin: 0;
+    color: black;
+}
+nav{
+    background-color:#2F2FA2 ;
+    color: white;
+}
+nav ul{
+    padding: 0;
+    list-style: none;
+
+}
+nav li{
+    display:  inline;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 20px;
+}
+nav a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.cuerpo{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+footer{
+    background-color: #2F2FA2;
+    text-align:center ;
+    color: white;
+    padding: 5px;
+    margin-top: 40px;
+}
+section{
+    float: left;
+    width: 65%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+aside{
+    float: right;
+    width: 35%;
+    box-sizing: border-box;
+    color: white;
+}
+.multimedia{
+    padding-top: 4%;
+    width: 90%;
+}

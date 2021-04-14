@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/estilos.css">
     <title>Mi primera página web</title>
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="contenedor">
             <h1>Novedades de HTML5 y CSS3</h1>
         </div>
 
@@ -18,13 +19,20 @@
     </header>
 
     <nav>
+        <div class="contenedor">
         <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">¿Qué es HTML5?</a></li>
             <li><a href="#">¿Qué es CSS3?</a></li>
             <li><a href="#">Otros</a></li>
         </ul>
+        </div>
     </nav>
+
+
+    <div class="cuerpo">
+
+    
     <section>
         <article>
             <h2>Novedades HTML5</h2>
@@ -148,15 +156,19 @@
 
         </article>
     </section>
+
+
     <aside>
-        <video src="videos/Vídeo corto #soplaunavela.mp4" poster="img/video.jpg" controls></video>
-        <video src="videos/Vídeo corto #soplaunavela.mp4" poster="img/video.jpg" controls></video>
-        <audio src="audio/y2mate.com - Qué es y para que se utiliza HTML 5.mp3" controls>
+        <video class ="multimedia" src="videos/Vídeo corto #soplaunavela.mp4" poster="img/video.jpg" controls></video>
+        <video class ="multimedia" src="videos/Vídeo corto #soplaunavela.mp4" poster="img/video.jpg" controls></video>
+        <audio class ="multimedia" src="audio/y2mate.com - Qué es y para que se utiliza HTML 5.mp3" controls>
 
         </audio>
     </aside>
+
+</div>
     <footer>
-        <p>Sugerencias</p>
+        <h2>Sugerencia</h2>
         <form action="." oninput="range_control_value.value = range_control.valueAsNumber">
             <p>
                 Nombre: <input type="text" name="name_control" autofocus required />
@@ -169,7 +181,7 @@
                 <br />
                 Sugerencia: <input type="text" name="name_control" autofocus required />
                 <br />
-                <input type="submit" value="Submit!" />
+                <input type="submit" value="Enviar!" />
             </p>
         </form>
     </footer>
