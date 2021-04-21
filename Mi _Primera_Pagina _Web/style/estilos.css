@@ -37,6 +37,7 @@ nav a:hover{
     width: 80%;
     margin: auto;
     overflow: hidden;
+    display: flex;
 }
 .cuerpo{
     width: 100%;
