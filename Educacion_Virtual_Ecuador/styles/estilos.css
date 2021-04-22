@@ -71,7 +71,7 @@ nav a:hover{
 .contenedor {
     width: 95%;
     margin: auto;
-    overflow: hidden;
+  
 }
 .contenedor-principal{
     display: flex;
@@ -85,8 +85,8 @@ nav a:hover{
   border-radius: 5px;
   box-shadow: 0 0 6px 0 rgb(0 0 0 / 60%);
   margin-bottom: 30px;
-margin-left: 20px;
-background-color: white;
+  margin-left: 20px;
+  background-color: white;
  
  
 }.contenedor-derecho{
@@ -100,9 +100,9 @@ background-color: white;
     padding: 0 20px;
     text-align: justify;
     border-radius: 5px;
-box-shadow: 0 0 6px 0 rgb(0 0 0 / 60%);
-margin-bottom: 30px;
-background-color: white;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 60%);
+    margin-bottom: 30px;
+    background-color: white;
 }
 .cajas h3{
     text-align: center;
@@ -127,23 +127,23 @@ footer{
     flex-direction: column;
     align-items: center;
     text-align: center;
-   margin-bottom: 30px;
-border-radius: 5px;
-box-shadow: 0 0 6px 0 rgb(0 0 0 / 60%);
-background-color: white;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgb(0 0 0 / 60%);
+    background-color: white;
 }
 .multimedia{
- width: 95%;
-padding: 0 0 30px 0;
+    width: 95%;
+    padding: 0 0 30px 0;
 }
 .contenedor-izquierdo img{
     display:block;
     margin:auto;
-   width: 50%;
+     width: 50%;
 
 }
 .cajas img{
     display:block;
     margin:auto;
-   width: 60%;
+     width: 60%;
 }
